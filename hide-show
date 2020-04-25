@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 
 <!--
-	The link starts off hidden, but when the user clicks on the button, the link is shown.
+	The link starts off hidden, but is displayed when the user clicks on the button.
 -->
 
 <html>
