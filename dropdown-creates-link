@@ -1,5 +1,9 @@
-// The basic idea here that when a dropdown selection is made, the call link changes.
 <!DOCTYPE html>
+
+<!--
+	The basic idea here that when a dropdown selection is made, the call link changes in response.
+-->
+
 <html>
 <body>
 
