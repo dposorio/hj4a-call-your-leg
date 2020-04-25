@@ -5,25 +5,23 @@
 -->
 
 <html>
-<body>
+	<body>
+		<button onclick="myFunction()">Hide/Show</button>
+		<p id="call-link-container"><a href="#">Call Now!</a></p>
+	</body>
 
-<button onclick="myFunction()">Hide/Show</button>
+	<script>
+		var x = document.getElementById("call-link-container");
+		x.style.display = "none";
+		function myFunction() {
+			var x = document.getElementById("call-link-container");
+			if (x.style.display === "none") {
+				x.style.display = "block";
+			} else {
+				x.style.display = "none";
+			}
+		}
+	</script>
 
-<p id="call-link-container"><a href="#">Call Now!</a></p>
-
-<script>
-var x = document.getElementById("call-link-container");
-x.style.display = "none";
-function myFunction() {
-  var x = document.getElementById("call-link-container");
-  if (x.style.display === "none") {
-    x.style.display = "block";
-  } else {
-    x.style.display = "none";
-  }
-}
-</script>
-
-</body>
 </html>
 
