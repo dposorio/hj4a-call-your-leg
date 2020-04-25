@@ -5,27 +5,24 @@
 -->
 
 <html>
-<body>
+	<body>
+		<div id="rep-dropdown">
+			<select id="congressperson">
+				<option value="">SELECT</option>
+				<option value="tel:555-555-5555">Adriano Espaillat, NY District 13</option>
+				<option value="tel:555-555-5554">Carolyn B. Maloney, NY District 12</option>
+				<option value="tel:555-555-5552">Jerrold Nadler, NY District 10</option>
+			</select>
+		</div>
+		<p>
+			<a id="call" href="">Call now!</a>
+		</p>
+	</body>
 
-<div id="rep-dropdown">
-    <select id="congressperson">
-		<option value="">SELECT</option>
-        <option value="tel:555-555-5555">Adriano Espaillat, NY District 13</option>
-        <option value="tel:555-555-5554">Carolyn B. Maloney, NY District 12</option>
-        <option value="tel:555-555-5552">Jerrold Nadler, NY District 10</option>
-    </select>
-</div>
-<p style="margin-top: 1.5em;">
-    <a id="call" href=""> Call now! </a>
-</p>
-
-
-<script>
-var sel = document.getElementById('congressperson');
-sel.onchange = function () {
-    document.getElementById("call").href = this.value;
-}
-</script>
-
-</body>
+	<script>
+		var sel = document.getElementById('congressperson');
+		sel.onchange = function () {
+			document.getElementById("call").href = this.value;
+		}
+	</script>
 </html>
